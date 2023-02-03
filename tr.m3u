@@ -132,7 +132,7 @@ https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
 #EXTINF:0 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL/1",ATV
 http://mfe.cliptv.az/dash/ATV_Turk_HD.ism/playlist.mpd
 #EXTINF:0 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL/1",ATV
-https://youtu.be/3r-2R5rAxhU
+https://youtu.be/1KXZDgP9W5E
 #EXTINF:0 tvg-logo="https://i.ibb.co/d6c87Km/trt122.png" group-title="GENEL/1",TRT 1 (backup)
 https://trt1.blutv.com/blutv_trt1_live/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/d6c87Km/trt122.png" group-title="GENEL/1",TRT 1 (backup)
@@ -218,7 +218,7 @@ https://mn-nl.mncdn.com/blutv_trtbelgesel2/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="BELGESEL",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="BELGESEL",TRT 2
-http://167.114.115.233:8080/trt2fhd/index.m3u8
+https://mn-nl.mncdn.com/blutv_trt2/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/1Ty8Z3X/bizimev.png" group-title="BELGESEL",BIZIM EV TV
 https://mn-nl.mncdn.com/blutv_bizimev/bizimev_sd.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Hr0mtKR/patitv.png" group-title="BELGESEL",KANAL PATI
@@ -267,6 +267,8 @@ https://dogus.daioncdn.net/tlc/tlc.m3u8?app=1aca0aa1-06e3-41ff-a8e5-38d7df475469
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/YjkMYbF/trtcocuk21a.png" group-title="ÇOCUK/SPOR",TRT ÇOCUK
 https://mn-nl.mncdn.com/blutv_trtcocuk_2/trtcocuk.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/Zxd0j45/cartoonnetwork.png" group-title="ÇOCUK/SPOR",CARTOON NETWORK TR
+https://mn-nl.mncdn.com/blutv_cartoonnetwork/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="ÇOCUK/SPOR",TRT SPOR [geo-blocked]
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/3WmLjwG/trtspor22c.png" group-title="ÇOCUK/SPOR",TRT SPOR [geo-blocked]
