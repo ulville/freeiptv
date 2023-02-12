@@ -7,7 +7,7 @@ git merge upstream/master --no-edit &&
 echo "Commiting merged changes..."
 git commit -m "Merge changes from upstream $(date -I)" &&
 echo "Parsing for Kodi..."
-/usr/bin/python3 parse-for-kodi.py &&
+"$(which python3)" parse-for-kodi.py &&
 echo "Adding parsing results..."
 git add . &&
 echo "Commiting parsing results..."
