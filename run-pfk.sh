@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Fetching Origin"
+git fetch &&
+echo "Pulling from Origin"
+git pull &&
 echo "Fetching Upstream..."
 git fetch upstream &&
 echo "Merging Upstream..."
