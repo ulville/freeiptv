@@ -45,6 +45,8 @@ https://mn-nl.mncdn.com/blutv_bloomberght2/live.m3u8
 https://mn-nl.mncdn.com/blutv_ekoturk2/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/tXdf2YF/ulusal22.png" group-title="HABER",ULUSAL KANAL
 https://mn-nl.mncdn.com/blutv_ulusalkanal/blutv_ulusalkanal.smil/playlist.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/tXdf2YF/ulusal22.png" group-title="HABER",ULUSAL KANAL
+https://stream.guventechnology.com:19360/ulusaltv/ulusaltv.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/0MHPk8y/benguturk.png" group-title="HABER",BENGÜ TÜRK
 https://tv.ensonhaber.com/tv/tr/benguturk/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/0MHPk8y/benguturk.png" group-title="HABER",BENGÜ TÜRK
@@ -369,10 +371,10 @@ http://dygvideo.dygdigital.com/live/hls/kraltv?m3u8
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/swtn1kV/trtturk.png" group-title="DİĞER",TRT TÜRK
 https://mn-nl.mncdn.com/blutv_trtturk2/live.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/THj0Jrg/eurod22.png" group-title="DİĞER",EURO D
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/WvhGGP0/showturk1.png" group-title="DİĞER",SHOW TÜRK
 https://mn-nl.mncdn.com/blutv_showturk2/live.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/THj0Jrg/eurod22.png" group-title="DİĞER",EURO D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Lg90xsB/eurostar22.png" group-title="DİĞER",EURO STAR
 https://mn-nl.mncdn.com/blutv_eurostar2/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/cDxKJy1/k7avr1.png" group-title="DİĞER",KANAL 7 AVRUPA
