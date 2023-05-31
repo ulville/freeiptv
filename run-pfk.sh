@@ -12,6 +12,8 @@ echo "Commiting merged changes..."
 git commit -m "Merge changes from upstream $(date -I)" &&
 echo "Parsing for Kodi..."
 "$(which python3)" parse-for-kodi.py &&
+echo "Replacing with liveproxy links"
+"$(which python3)" add_liveproxy_links.py &&
 echo "Adding parsing results..."
 git add . &&
 echo "Commiting parsing results..."
