@@ -433,6 +433,8 @@ https://tv.ensonhaber.com/tv/tr/tgrteu/index.m3u8
 https://canli.haber365.com.tr/tr/tgrteu/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Sc4DY66/emtv.webp" group-title="DİĞER",TV EM
 http://win1.yayin.com.tr/TVEM/TVEM/chunklist.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/Sc4DY66/emtv.webp" group-title="DİĞER",TV EM
+http://cdn-tvem.yayin.com.tr/TVEM/TVEM/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/zh5Fqv8/kanalb.png" group-title="DİĞER",KANAL B
 https://mn-nl.mncdn.com/blutv_kanalb2/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/FX1SqtR/cantv.jpg" group-title="DİĞER",CAN TV
