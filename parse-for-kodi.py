@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-with open('all', 'r', encoding='utf8') as f:
+with open('all.m3u', 'r', encoding='utf8') as f:
     lines = f.readlines()
 
 first_line = lines[0]
