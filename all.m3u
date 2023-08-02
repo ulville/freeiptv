@@ -96,7 +96,7 @@ https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/rtlm6/d
 #EXTINF:0 tvg-logo="https://i.ibb.co/cQbcrGZ/c8.png",C8
 https://raw.githubusercontent.com/pshanmu3/dailymotion_to_m3u8/main/C8.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/BBpR1Wx/tf1.png",TF1
-https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI5MC4yNC4zMy43MiIsImNtY2QiOiIiLCJleHAiOjE2OTEwMTQ5NTEsImdpZCI6ImQwZTMzNTk3LTg2YzMtNGM1NC04YTI4LWNlZDc0N2QzMTk3YyIsImlhdCI6MTY5MTAwMDU1MSwiaXNzIjoiZGVsaXZlcnkiLCJtYXhiIjoyMDAwMDAwLCJzdGVtIjoiL291dC92MS83ODA1NDJmNTE2ZjE0M2ZjOGFkOWJmMTQ2MjIzMTZlNy90ZjEtY21hZiIsInN1YiI6ImQwZTMzNTk3LTg2YzMtNGM1NC04YTI4LWNlZDc0N2QzMTk3YyJ9.amwaKsgujAyMZRZcm9MF_omH03oVdsX1cAc7YeTBmDQ/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8
+https://live-tf1-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI5MC4yNC4zMy43MiIsImNtY2QiOiIiLCJleHAiOjE2OTEwMjUzMTEsImdpZCI6IjkyZGMyNTk0LTRmZmUtNDdhZi04MTQ2LWQ4MTY4NGJiMDY5MSIsImlhdCI6MTY5MTAxMDkxMSwiaXNzIjoiZGVsaXZlcnkiLCJtYXhiIjoyMDAwMDAwLCJzdGVtIjoiL291dC92MS83ODA1NDJmNTE2ZjE0M2ZjOGFkOWJmMTQ2MjIzMTZlNy90ZjEtY21hZiIsInN1YiI6IjkyZGMyNTk0LTRmZmUtNDdhZi04MTQ2LWQ4MTY4NGJiMDY5MSJ9.o4ktlRN_PCrvo8jhzjp9olyo-dwDZqnJxQ6_vP19zoA/out/v1/780542f516f143fc8ad9bf14622316e7/tf1-cmaf/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/GxWtcTm/fr2bl.png",FRANCE 2
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/frtv/py/0fr2.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/y8PjbJ4/fr3bl.png",FRANCE 3
@@ -200,7 +200,7 @@ https://d3awaj0f2u3w26.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da
 #EXTINF:0 tvg-logo="https://i.ibb.co/KXhYwm0/lequipe.png",L'EQUIPE LIVE 2
 https://d2l55nvfkhk4sg.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jg7go1lqzgpny-ssai-prd/435d04a5-ab47-47c5-a2c1-bae01ae6d0c1/2.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/p0CLPqT/equidia.png",EQUIDIA
-https://equidia-live2-b31-cdn.hexaglobe.net/e03aef0c582d318caedc0d62b5a22e37/64ca8536/equidia/equidia-mobileapp-ios-1/eqdlivepri_fre.smil/playlist.m3u8
+https://equidia-live2-p28-cdn.hexaglobe.net/835f486ac4b491d66bd6be35f43279ab/64cabbfc/equidia/equidia-mobileapp-ios-1/eqdlivepri_fre.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/LQXjFc3/gulli.png",GULLI
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/rtlm6/directmaster/gullihd.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/LQXjFc3/gulli.png",GULLI
