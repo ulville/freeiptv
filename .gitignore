@@ -2,3 +2,7 @@ tmp/
 *.bak
 *.log
 ulke.txt
+testlinks.sh
+testlinks.py
+failed.txt
+success.txt
