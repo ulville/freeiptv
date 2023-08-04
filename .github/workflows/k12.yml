@@ -1,8 +1,8 @@
-name: equidv1 action
+name: k12 action
 
 on:
   schedule:
-    - cron: '20 */4 * * *'
+    - cron: '05 */20 * * *'
   
   workflow_dispatch:
 
@@ -16,10 +16,10 @@ jobs:
       - name: config
         run: |
           git config --global user.email "<>"
-          git config --global user.name "equidv1 bot"
+          git config --global user.name "k12 bot"
       
-      - name: updating equidv1
-        run: sh ${GITHUB_WORKSPACE}/ressources/froth/py/equidv1.sh
+      - name: updating k12
+        run: sh ressources/keshetil/py/k12.sh
         
       - name: git add
         run: |
@@ -28,5 +28,5 @@ jobs:
           
       - name: commit & push
         run: |
-          git commit -m "equidv1 updated"
+          git commit -m "k12 updated"
           git push
