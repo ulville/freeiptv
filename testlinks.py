@@ -3,9 +3,33 @@ from subprocess import run
 import re
 import m3u8
 from m3u8 import protocol
+from m3u8.model import M3U8, number_to_string
 from m3u8.parser import save_segment_custom_value
 from urllib.error import HTTPError, URLError
 from http.client import InvalidURL
+
+def dumps_m3u(m3u : M3U8):
+    output = ["#EXTM3U"]
+    last_group = ""
+    for seg in m3u.segments:
+        segdumps = []
+        seg_props = seg.custom_parser_values["extinf_props"]
+        if seg_props["group-title"] != last_group and last_group != "":
+            segdumps.append(2*"\n")
+        last_group = seg_props["group-title"]
+        if seg.uri:
+            if seg.duration is not None:
+                segdumps.append("#EXTINF:%s" % number_to_string(seg.duration))
+                if seg_props["tvg-logo"]:
+                    segdumps.append(" tvg-logo=\"%s\"" % seg_props["tvg-logo"])
+                if seg_props["group-title"]:
+                    segdumps.append(" group-title=\"%s\"" % seg_props["group-title"])
+                if seg.title:
+                    segdumps.append("," + seg.title)
+                segdumps.append("\n")
+            segdumps.append(seg.uri)
+        output.append("".join(segdumps))
+    return "\n".join(output)
 
 
 def parse_iptv_attributes(line, lineno, data, state):
@@ -84,7 +108,6 @@ if __name__ == "__main__":
             print("\033[31mFailed!:\033[0m", e)
 
         print("-" * 70)
-    # print(first_segment_props['catchup-type'])  # 'flussonic'
 
 # with open('tr.m3u', 'r', encoding='utf8') as f:
 #     lines = f.readlines()
