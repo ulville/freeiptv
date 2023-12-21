@@ -7,6 +7,17 @@ from m3u8.model import M3U8, number_to_string
 from m3u8.parser import save_segment_custom_value
 from urllib.error import HTTPError, URLError
 from http.client import InvalidURL
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "-o",
+    "--override",
+    action="store_true",
+)
+args = parser.parse_args()
+
+
 
 def dumps_iptv(iptv : M3U8):
     output = ["#EXTM3U"]
@@ -84,7 +95,7 @@ def is_success(playlist):
     try:
         m3u8.load(playlist.absolute_uri, 10)
         return True
-    except (HTTPError, URLError, TimeoutError, InvalidURL):
+    except (HTTPError, URLError, TimeoutError, InvalidURL, KeyError):
         return False
 
 
@@ -96,10 +107,10 @@ def get_failed_links(channel_list):
             if m.is_variant:
                 if not any([is_success(pl) for pl in m.playlists]):
                     failed.append(s)
-        except (HTTPError, URLError, TimeoutError, InvalidURL) as e:
+        except (HTTPError, URLError, TimeoutError, InvalidURL, KeyError) as e:
             if "http://localhost:53422" not in s.uri:
                 failed.append(s)
-        print(f"\033[2Ktested {i} / {len(channel_list.segments)}", end="\r")
+        print(f"tested {i} / {len(channel_list.segments)}", s.uri)
     return failed
             
 
@@ -109,8 +120,10 @@ if __name__ == "__main__":
     parsed = m3u8.load(FILE, custom_tags_parser=parse_iptv_attributes)
     for failed_segment in get_failed_links(parsed):
         parsed.segments.remove(failed_segment)
-    
-    dump_iptv(parsed, FILE)
+    if args.override:
+        dump_iptv(parsed, FILE)
+    else:
+        dump_iptv(parsed, "success.m3u")
 
     # print(parsed.is_variant)
 
