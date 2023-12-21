@@ -97,7 +97,8 @@ def get_failed_links(channel_list):
                 if not any([is_success(pl) for pl in m.playlists]):
                     failed.append(s)
         except (HTTPError, URLError, TimeoutError, InvalidURL) as e:
-            failed.append(s)
+            if "http://localhost:53422" not in s.uri:
+                failed.append(s)
         print(f"\033[2Ktested {i} / {len(channel_list.segments)}", end="\r")
     return failed
             
@@ -109,7 +110,7 @@ if __name__ == "__main__":
     for failed_segment in get_failed_links(parsed):
         parsed.segments.remove(failed_segment)
     
-    dump_iptv(parsed, "success.m3u")
+    dump_iptv(parsed, FILE)
 
     # print(parsed.is_variant)
 

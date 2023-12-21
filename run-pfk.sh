@@ -14,6 +14,8 @@ echo "Parsing for Kodi..."
 "$(which python3)" parse-for-kodi.py &&
 echo "Replacing with liveproxy links"
 "$(which python3)" add_liveproxy_links.py &&
+echo "Removing failing channels..."
+"$(which python3)" testlinks.py &&
 echo "Adding parsing results..."
 git add . &&
 echo "Commiting parsing results..."
