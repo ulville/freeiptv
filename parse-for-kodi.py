@@ -36,8 +36,8 @@ for index, line in enumerate(lines):
                 group + '"' + line[insert_location:]
     new_lines.append(line)
 
-for index, line in enumerate(new_lines):
-    print(index + 1, line.strip())
+# for index, line in enumerate(new_lines):
+#     print(index + 1, line.strip())
 
 with open('tr.m3u', 'w', encoding='utf8') as f:
     f.write(first_line)
