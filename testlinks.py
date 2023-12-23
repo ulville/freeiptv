@@ -5,8 +5,10 @@ import m3u8
 from m3u8 import protocol
 from m3u8.model import M3U8, number_to_string
 from m3u8.parser import save_segment_custom_value
+import requests
 from urllib.error import HTTPError, URLError
 from http.client import InvalidURL
+from requests.exceptions import ReadTimeout
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -17,7 +19,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-
+TIMEOUT = 30
 
 def dumps_iptv(iptv : M3U8):
     output = ["#EXTM3U"]
@@ -93,24 +95,43 @@ def parse_iptv_attributes(line, lineno, data, state):
 
 def is_success(playlist):
     try:
-        m3u8.load(playlist.absolute_uri, 10)
+        pl_content = m3u8.load(playlist.absolute_uri, TIMEOUT)
+        last_segment = pl_content.segments[-1]
+        url = last_segment.absolute_uri
+        response = requests.get(url, timeout=TIMEOUT)
+        if not response.ok:
+            return False
         return True
-    except (HTTPError, URLError, TimeoutError, InvalidURL, KeyError):
+    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError):
         return False
 
 
 def get_failed_links(channel_list):
     failed = []
     for i, s in enumerate(channel_list.segments):
+        mark = "🟢"
         try:
-            m = m3u8.load(s.uri, 10)
+            m = m3u8.load(s.uri, TIMEOUT)
             if m.is_variant:
                 if not any([is_success(pl) for pl in m.playlists]):
                     failed.append(s)
-        except (HTTPError, URLError, TimeoutError, InvalidURL, KeyError) as e:
+                    mark = "🔴"
+            else:
+                if len(m.segments) == 0:
+                    failed.append(s)
+                    mark = "🔴"
+                else:
+                    last_segment = m.segments[-1]
+                    url = last_segment.absolute_uri
+                    response = requests.get(url, timeout=TIMEOUT)
+                    if not response.ok:
+                        failed.append(s)
+                        mark = "🔴"
+        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError) as e:
             if "http://localhost:53422" not in s.uri:
                 failed.append(s)
-        print(f"tested {i} / {len(channel_list.segments)}", s.uri)
+                mark = "🔴"
+        print(f"tested {i + 1} / {len(channel_list.segments)}", s.title, s.uri, mark)
     return failed
             
 
