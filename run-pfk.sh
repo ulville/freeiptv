@@ -9,7 +9,7 @@ git fetch upstream || exit 1
 echo "Merging Upstream..."
 git merge upstream/master --no-edit || exit 1
 echo "Commiting merged changes..."
-git commit -m "Merge changes from upstream $(date -I)" || exit 1
+git commit -m "Merge changes from upstream $(date -I)"
 
 echo "Parsing for Kodi..."
 "$(which python3)" parse-for-kodi.py || exit 1
