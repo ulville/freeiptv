@@ -10,12 +10,19 @@ echo "Merging Upstream..."
 git merge upstream/master --no-edit &&
 echo "Commiting merged changes..."
 git commit -m "Merge changes from upstream $(date -I)" &&
+
 echo "Parsing for Kodi..."
 "$(which python3)" parse-for-kodi.py &&
+
+echo "Taking backup of unedited tr.m3u..."
+cp tr.m3u tr-unedited.m3u
+
 echo "Replacing with liveproxy links"
 "$(which python3)" add_liveproxy_links.py &&
+
 echo "Removing failing channels..."
 "$(which python3)" testlinks.py --override &&
+
 echo "Adding parsing results..."
 git add . &&
 echo "Commiting parsing results..."
