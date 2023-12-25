@@ -7,7 +7,7 @@ from m3u8.model import M3U8, number_to_string
 from m3u8.parser import save_segment_custom_value
 import requests
 from urllib.error import HTTPError, URLError
-from http.client import InvalidURL
+from http.client import InvalidURL, RemoteDisconnected
 from requests.exceptions import ReadTimeout
 import argparse
 
@@ -102,13 +102,14 @@ def is_success(playlist):
         if not response.ok:
             return False
         return True
-    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError):
+    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected):
         return False
 
 
 def get_failed_links(channel_list):
     failed = []
     for i, s in enumerate(channel_list.segments):
+        print(f"testing {i + 1} / {len(channel_list.segments)}", s.title, s.uri, end=" ", flush=True)
         mark = "🟢"
         try:
             m = m3u8.load(s.uri, TIMEOUT)
@@ -127,11 +128,11 @@ def get_failed_links(channel_list):
                     if not response.ok:
                         failed.append(s)
                         mark = "🔴"
-        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError) as e:
+        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected) as e:
             if "http://localhost:53422" not in s.uri:
                 failed.append(s)
                 mark = "🔴"
-        print(f"tested {i + 1} / {len(channel_list.segments)}", s.title, s.uri, mark)
+        print(mark)
     return failed
             
 
