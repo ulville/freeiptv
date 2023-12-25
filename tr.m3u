@@ -86,8 +86,6 @@ https://pull1-poc.blutv.com/live/Z9N2GCPN/Z9N2GCPN_720p.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/6m9Pb3t/tv5tr1.png" group-title="HABER-2",TV5
 https://new.cache-stream.workers.dev/stream/UCZ3J4iembAbdYf5Fanzkvbg/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/0MHPk8y/benguturk.png" group-title="HABER-2",BENGÜ TÜRK
-https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/0MHPk8y/benguturk.png" group-title="HABER-2",BENGÜ TÜRK
 https://new.cache-stream.workers.dev/stream/UChNgvcVZ_ggDdZ0zCcuuzFw/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/vJJzR8G/tgrthab22.png" group-title="HABER-2",TGRT HABER
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
@@ -263,8 +261,6 @@ https://dogus.daioncdn.net/tlc/tlc.m3u8?app=1aca0aa1-06e3-41ff-a8e5-38d7df475469
 
 #EXTINF:0 tvg-logo="https://i.ibb.co/YjkMYbF/trtcocuk21a.png" group-title="ÇOCUK/SPOR",TRT ÇOCUK
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/YjkMYbF/trtcocuk21a.png" group-title="ÇOCUK/SPOR",TRT ÇOCUK
-https://trtcocuk.blutv.com/blutv_trtcocuk_2/trtcocuk.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/qDF8pHQ/tdcc.png" group-title="ÇOCUK/SPOR",TRT DİYANET ÇOCUK
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/qDF8pHQ/tdcc.png" group-title="ÇOCUK/SPOR",TRT DİYANET ÇOCUK
@@ -295,8 +291,6 @@ https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 https://trtspor.blutv.com/blutv_trtspor/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="ÇOCUK/SPOR",TRT SPOR2 YILDIZ [geo-blocked]
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/ky3qVPc/trtspory2.png" group-title="ÇOCUK/SPOR",TRT SPOR2 YILDIZ [geo-blocked]
-https://trtsporyildiz.blutv.com/blutv_trtsporyildiz_2/trtsporyildiz.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/zfwmCCp/ilkoku22.png" group-title="ÇOCUK/SPOR",TRT EBA ILK
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/zfwmCCp/ilkoku22.png" group-title="ÇOCUK/SPOR",TRT EBA ILK
