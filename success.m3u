@@ -13,8 +13,6 @@ https://haberglobal.blutv.com/blutv_haberglobal2/live.m3u8
 https://new.cache-stream.workers.dev/stream/UCtc-a9ZUIg0_5HpsPxEO7Qg/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/bLpTdYZ/tv100.png" group-title="HABER-1",TV 100
 https://tv100.blutv.com/blutv_tv100_live/live.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/bLpTdYZ/tv100.png" group-title="HABER-1",TV 100
-https://new.cache-stream.workers.dev/stream/YKIeEy_71QI/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/JqWCczW/cnnturk1.png" group-title="HABER-1",CNN TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/JqWCczW/cnnturk1.png" group-title="HABER-1",CNN TÜRK
@@ -67,8 +65,6 @@ https://flashtv.blutv.com/blutv_flashtv/live.m3u8
 https://stream.guventechnology.com:19360/flashtv/flashtv.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="HABER-2",SÖZCÜ TV
 https://szctvdvr.blutv.com/blutv_szctv_dvr/live.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="HABER-2",SÖZCÜ TV
-https://new.cache-stream.workers.dev/stream/2i8lfP9oqvk/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/ZT2fQq3/krt.png" group-title="HABER-2",KRT
 https://krt.blutv.com/blutv_krt_live/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/4Mhmggc/tele1.png" group-title="HABER-2",TELE 1
@@ -91,8 +87,6 @@ https://new.cache-stream.workers.dev/stream/UChNgvcVZ_ggDdZ0zCcuuzFw/live.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/vJJzR8G/tgrthab22.png" group-title="HABER-2",TGRT HABER
 https://tgrthaber-live.daioncdn.net/tgrthaber/tgrthaber.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/1X8nWHc/ahaber.png" group-title="HABER-2",A HABER
-https://new.cache-stream.workers.dev/stream/UCKQhfw-lzz0uKnE1fY1PsAA/live.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/1RWhvy4/tvnet.png" group-title="HABER-2",TV NET
 https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/1RWhvy4/tvnet.png" group-title="HABER-2",TV NET
@@ -329,8 +323,6 @@ https://ythls.armelin.one/video/xrf_RbM_MNk.m3u8
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/d6Zfm2P/trtmuzik21c.png" group-title="MÜZİK",TRT MÜZİK
 https://trtmuzik.blutv.com/blutv_trtmuzik2/live.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/6401NQw/kraltv.png" group-title="MÜZİK",KRAL - KRAL POP
-http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/6401NQw/kraltv.png" group-title="MÜZİK",KRAL - KRAL POP
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/4SsJS4R/dreamturk.png" group-title="MÜZİK",DREAM TÜRK
@@ -647,7 +639,5 @@ https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m
 https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/chunks.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",VAN GÖLÜ TV
 https://cdn1-vangolutv.yayin.com.tr/vangolutv/amlst:vangolutv/playlist.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",VİYANA TV
-http://nrttn172.kesintisizyayin.com:29010/nrttn/nrttn/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",WORLD TÜRK TV
 https://live.artidijitalmedya.com/artidijital_worldturk/worldturk/playlist.m3u8
