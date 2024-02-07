@@ -8,7 +8,7 @@ headers = {
 }
 
 print('#EXTM3U')
-print('#EXT-X-STREAM-INF:RESOLUTION=848x477,FRAME-RATE=25.000000,BANDWIDTH=1359872,CODECS="avc1.64001e,mp4a.40.2",NAME="480"')
+print('#EXT-X-STREAM-INF:BANDWIDTH=7680000')
 
 master_url = "http://s2.callofliberty.fr/direct/LEQUIPE/master.m3u8"
 s = requests.Session()
@@ -34,4 +34,6 @@ if index != -1:
 else:
     shortchunks = chunks
 
-print(shortchunks)
+modified_url = shortchunks.replace("live-2", "live-3")
+
+print(modified_url)
