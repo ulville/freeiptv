@@ -24,7 +24,7 @@ new_lines = []
 
 search_text = 'group-title="|TR|'
 for index, line in enumerate(lines):
-    if "#EXTINF:0" in line:
+    if "#EXTINF:-1" in line:
         if search_text in line:
             group_start = line.find(search_text) + len(search_text) + 3
             group_end = line.find('",')

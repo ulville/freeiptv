@@ -8,7 +8,7 @@ from m3u8.parser import save_segment_custom_value
 import requests
 from urllib.error import HTTPError, URLError
 from http.client import InvalidURL, RemoteDisconnected
-from requests.exceptions import ReadTimeout
+from requests.exceptions import ReadTimeout, ConnectionError
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -102,7 +102,7 @@ def is_success(playlist):
         if not response.ok:
             return False
         return True
-    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected):
+    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected, ConnectionError):
         return False
 
 
@@ -128,7 +128,7 @@ def get_failed_links(channel_list):
                     if not response.ok:
                         failed.append(s)
                         mark = "🔴"
-        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected) as e:
+        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected, ConnectionError) as e:
             if "http://localhost:53422" not in s.uri:
                 failed.append(s)
                 mark = "🔴"
