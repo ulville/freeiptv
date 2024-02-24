@@ -161,6 +161,8 @@ https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV
 http://localhost:53422/base64/c3RyZWFtbGluayBodHRwczovL3d3dy5hdHYuY29tLnRyL2NhbmxpLXlheWluIGJlc3Q=
+#EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV
+http://hw1.jemtv.com/app/ATVHD/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVnG3Zr/360tv.png" group-title="GENEL",360
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVnG3Zr/360tv.png" group-title="GENEL",360
@@ -195,8 +197,6 @@ https://bloomberght-live.daioncdn.net/showtv/showtv.m3u8
 https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=BS-wu77hn1C6kZ4CQbeWKw&e=1708791286
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
 http://hw1.jemtv.com/app/FoxTurkey/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV (backup)
-http://hw1.jemtv.com/app/ATVHD/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVnG3Zr/360tv.png" group-title="GENEL",360 (backup)
 https://360tv.blutv.com/blutv_360tv_live/live.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVnG3Zr/360tv.png" group-title="GENEL",360 (backup)
