@@ -13,7 +13,14 @@ git pull || exit 1
 cecho "Fetching Upstream..."
 git fetch upstream || exit 1
 cecho "Merging Upstream..."
-git merge upstream/master --no-edit || exit 1
+git merge upstream/master --no-edit
+MERGE_RES=$?
+if [ $MERGE_RES -ne 0 ]; then
+    cecho "Auto-merge failed. git status:"
+    git status
+    cecho "Trying to resolve conflicts..."
+    git diff | awk '{ print $4 }' | xargs git rm || exit 1
+fi
 cecho "Commiting merged changes..."
 git commit -m "Merge changes from upstream $(date -I)"
 
