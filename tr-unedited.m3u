@@ -177,10 +177,10 @@ http://canli.haber365.com.tr/tr/startv/index.m3u8
 https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BrGNZJ4/showtv.png" group-title="GENEL",SHOW
 https://showtv.blutv.com/blutv_showtv_live/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4tyCssZ/fox.png" group-title="GENEL",FOX
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW
 https://foxtv.blutv.com/blutv_foxtv_live/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4tyCssZ/fox.png" group-title="GENEL",FOX
-https://foxtv.daioncdn.net/foxtv/foxtv.m3u8?ce=3&app=24e7a2e2-9156-4c02-a4fb-2bc599ffaf77&st=FP9vY3QU-gEgb4tSOdMnpg&e=1707343832
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW
+https://nowtv-live-ad.ercdn.net/nowtv/playlist.m3u8?st=BS-wu77hn1C6kZ4CQbeWKw&e=1708791286
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="GENEL",TV8
 https://tv8-live.daioncdn.net/tv8/tv8.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tXKXNDz/tv8.png" group-title="GENEL",TV8
@@ -221,13 +221,17 @@ https://dogus.daioncdn.net/startv/startv.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484
 http://canli.haber365.com.tr/tr/showtv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BrGNZJ4/showtv.png" group-title="GENEL",SHOW (backup)
 https://bloomberght-live.daioncdn.net/showtv/showtv.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6ZKKvVT/nowtr.png" group-title="GENEL",FOX /NOW (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
+https://nowtv.daioncdn.net/nowtv/nowtv.m3u8?st=BS-wu77hn1C6kZ4CQbeWKw&e=1708791286
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
 https://new.cache-stream.workers.dev/stream/UCJe13zu6MyE6Oueac41KAqg/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6ZKKvVT/nowtr.png" group-title="GENEL",FOX /NOW (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
 https://ythls.armelin.one/channel/UCJe13zu6MyE6Oueac41KAqg.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6ZKKvVT/nowtr.png" group-title="GENEL",FOX /NOW (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
 http://hw1.jemtv.com/app/FoxTurkey/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6ZKKvVT/nowtr.png" group-title="GENEL",FOX /NOW (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
+https://mnorigin-ank-1.mncdn.com/test/live_720p.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0DpKtzT/nowtvturk.png" group-title="GENEL",NOW (backup)
 https://stream2.filbox.com.tr/live/hls/20/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV (backup)
 https://bozztv.com/inim03/live1/atv-tv/playlist.m3u8
@@ -237,6 +241,8 @@ https://new.cache-stream.workers.dev/stream/UCUVZ7T_kwkxDOGFcDlFI-hg/live.m3u8
 https://ythlsgo.onrender.com/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV (backup)
 https://ythls-v2.onrender.com/channel/UCUVZ7T_kwkxDOGFcDlFI-hg.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV (backup)
+http://hw1.jemtv.com/app/ATVHD/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV [youtube-src]
 https://youtu.be/1KXZDgP9W5E
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="GENEL",ATV [tkn-blocked]
@@ -263,83 +269,83 @@ https://beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f
 https://demiroren.daioncdn.net/teve2/teve2.m3u8?app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL/YAŞAM",TRT BELGESEL
+#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL & YAŞAM",TRT BELGESEL
 http://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL/YAŞAM",TRT BELGESEL
+#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL & YAŞAM",TRT BELGESEL
 https://trtbelgesel.blutv.com/blutv_trtbelgesel2/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="BELGESEL/YAŞAM",TRT 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="BELGESEL & YAŞAM",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="BELGESEL/YAŞAM",TRT 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TB5N8cN/trt2.png" group-title="BELGESEL & YAŞAM",TRT 2
 https://trt2.blutv.com/blutv_trt2/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL/YAŞAM",DMAX
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL & YAŞAM",DMAX
 https://dogus-live.daioncdn.net/dmax/dmax.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL/YAŞAM",DMAX
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL & YAŞAM",DMAX
 http://canli.haber365.com.tr/tr/dmax/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL/YAŞAM",TLC TR
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL & YAŞAM",TLC TR
 https://dogus-live.daioncdn.net/tlc/tlc.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL/YAŞAM",TLC TR
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL & YAŞAM",TLC TR
 http://canli.haber365.com.tr/tr/tlc/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pXncfpb/tv422.png" group-title="BELGESEL/YAŞAM",TV 4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/pXncfpb/tv422.png" group-title="BELGESEL & YAŞAM",TV 4
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pXncfpb/tv422.png" group-title="BELGESEL/YAŞAM",TV 4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/pXncfpb/tv422.png" group-title="BELGESEL & YAŞAM",TV 4
 https://tv4.blutv.com/blutv_tv4/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/sRNHKjS/tivi622.png" group-title="BELGESEL/YAŞAM",TIVI 6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/sRNHKjS/tivi622.png" group-title="BELGESEL & YAŞAM",TIVI 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SnPFhXS/cnee12.png" group-title="BELGESEL/YAŞAM",CINE 1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SnPFhXS/cnee12.png" group-title="BELGESEL & YAŞAM",CINE 1
 https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hLPsqNq/birtv.png" group-title="BELGESEL/YAŞAM",BİR TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hLPsqNq/birtv.png" group-title="BELGESEL & YAŞAM",BİR TV
 https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Zd6fMvZ/filtr.png" group-title="BELGESEL/YAŞAM",FİL TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Zd6fMvZ/filtr.png" group-title="BELGESEL & YAŞAM",FİL TV
 https://stream.filbox.com.tr/live/hls/1277/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="BELGESEL/YAŞAM",WOMAN KADIN TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="BELGESEL & YAŞAM",WOMAN KADIN TV
 https://embedlp.b-cdn.net/womantv.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/YQtd480/wlife.jpg" group-title="BELGESEL/YAŞAM",WOMAN LIFE TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YQtd480/wlife.jpg" group-title="BELGESEL & YAŞAM",WOMAN LIFE TV
 https://yayin30.haber100.com/live/womanlifetv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/1Z22dCY/teve2.png" group-title="BELGESEL/YAŞAM",TEVE 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1Z22dCY/teve2.png" group-title="BELGESEL & YAŞAM",TEVE 2
 https://live.duhnet.tv/S2/HLS_LIVE/teve2np/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/1Z22dCY/teve2.png" group-title="BELGESEL/YAŞAM",TEVE 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1Z22dCY/teve2.png" group-title="BELGESEL & YAŞAM",TEVE 2
 https://demiroren-live.daioncdn.net/teve2/teve2.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL/YAŞAM",SHOW MAX
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL & YAŞAM",SHOW MAX
 https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shmax.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL/YAŞAM",SHOW MAX
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL & YAŞAM",SHOW MAX
 https://ythls.armelin.one/video/Y3vGHFrsqrs.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL/YAŞAM",A2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL & YAŞAM",A2
 https://ythlsgo.onrender.com/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL/YAŞAM",A2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL & YAŞAM",A2
 https://livestream.zazerconer.workers.dev/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL/YAŞAM",SHOW MAX (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL & YAŞAM",SHOW MAX (backup)
 https://ythlsgo.onrender.com/video/Y3vGHFrsqrs.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL/YAŞAM",SHOW MAX (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL & YAŞAM",SHOW MAX (backup)
 https://livestream.zazerconer.workers.dev/stream/Y3vGHFrsqrs.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL/YAŞAM",SHOW MAX (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL & YAŞAM",SHOW MAX (backup)
 https://new.cache-stream.workers.dev/stream/Y3vGHFrsqrs/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL/YAŞAM",SHOW MAX [tkn-blocked]
+#EXTINF:-1 tvg-logo="https://i.ibb.co/kxjKk89/showmax.png" group-title="BELGESEL & YAŞAM",SHOW MAX [tkn-blocked]
 https://ciner-live.ercdn.net/showmax/showmax.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL/YAŞAM",A2 (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL & YAŞAM",A2 (backup)
 https://new.cache-stream.workers.dev/stream/UCHqu50_C2U2h_rpzhygs4aA/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL/YAŞAM",A2 (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL & YAŞAM",A2 (backup)
 https://ythls.armelin.one/channel/UCHqu50_C2U2h_rpzhygs4aA.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL/YAŞAM",A2 [tkn-blocked]
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2qrg9QF/a2022.png" group-title="BELGESEL & YAŞAM",A2 [tkn-blocked]
 https://trkvz-live.daioncdn.net/a2tv/a2tv.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL/YAŞAM",TRT BELGESEL (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL & YAŞAM",TRT BELGESEL (backup)
 https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL/YAŞAM",TRT BELGESEL (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL & YAŞAM",TRT BELGESEL (backup)
 https://d2xwn494f2lep.cloudfront.net/v1/master/80dbfc318ab6b980679b32095ba497236de6d2f9/TRT-Belgesel/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL/YAŞAM",TRT BELGESEL (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/N1h8m96/trtbelgesel.png" group-title="BELGESEL & YAŞAM",TRT BELGESEL (backup)
 http://tv-trtbelgesel.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL/YAŞAM",DMAX (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL & YAŞAM",DMAX (backup)
 https://dmax.blutv.com/blutv_dmax2/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL/YAŞAM",DMAX (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QQQR6VK/dmax.png" group-title="BELGESEL & YAŞAM",DMAX (backup)
 http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL/YAŞAM",TLC TR (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL & YAŞAM",TLC TR (backup)
 https://tlc.blutv.com/blutv_tlc_live/live.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL/YAŞAM",TLC TR (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL & YAŞAM",TLC TR (backup)
 http://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL/YAŞAM",TLC TR (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1vHy41/tlc.png" group-title="BELGESEL & YAŞAM",TLC TR (backup)
 https://dogus.daioncdn.net/tlc/tlc.m3u8?app=1aca0aa1-06e3-41ff-a8e5-38d7df475469
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="BELGESEL/YAŞAM",WOMAN KADIN TV (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="BELGESEL & YAŞAM",WOMAN KADIN TV (backup)
 https://s01.vpis.io/wmtv/wmtv.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="BELGESEL/YAŞAM",WOMAN KADIN TV (backup)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DKHDfbr/wmtv.png" group-title="BELGESEL & YAŞAM",WOMAN KADIN TV (backup)
 https://mn-nl.mncdn.com/blutv_womantv/blutv_womantv.smil/playlist.m3u8
 
 
@@ -607,8 +613,6 @@ http://nimplus3.bozztv.com/tv8int/tv8int/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",ADA TV
 https://edge1.socialsmart.tv/adatv/bant1/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",ANADOLU DERNEK TV
-http://stream.tvcdn.net/yerel/anadolu-dernek-tv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",ANADOLU NET TV
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",AKSU TV
@@ -697,8 +701,8 @@ http://cdn1-gurbet24.yayin.com.tr/gurbet24/ngrp:gurbet24/playlist.m3u8
 https://cdn1-hedeftv.yayin.com.tr/hedeftv/hedeftv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",HABER61 TRABZON
 https://cdn-haber61tv.yayin.com.tr/haber61tv/haber61tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",HRT AKDENİZ
-https://vod02.cdn.web.tv/cn/ov/cnovvu97lqw_,240,360,480,.mp4.urlset/playlist-f3-v1-a1.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",HRT HATAY AKDENİZ
+http://stream.tvcdn.net/yerel/hrt-akdeniz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",HUNAT TV KAYSERİ
 https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",İÇEL TV
@@ -739,6 +743,8 @@ https://cdn-kanals.yayin.com.tr/kanals/kanals/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KANAL Z ZONGULDAK
 https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KARABÜK DERİN TV
+https://cdn1-derintv.yayin.com.tr/derintv/derintv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KARDELEN TV
 https://edge1.socialsmart.tv/kardelentv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KAY TV KAYSERİ
@@ -749,6 +755,8 @@ https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
 https://edge1.socialsmart.tv/bodrumkenttv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" referer="https://player.castr.com/" group-title="YEREL",KOCAELİ TV
 https://stream.castr.com/64c0d0ebaaa212486ecf0238/live_4faaaa102b8a11ee80f12783ea1667a8/index.fmp4.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KONYA KTV
+https://cdn-ktvtv.yayin.com.tr/ktvtv/ktvtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KONYA OLAY TV
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",KIBRIS BRT 1
@@ -801,6 +809,8 @@ http://nrttn172.kesintisizyayin.com:29010/olay/olay/playlist.m3u8
 https://cdn1-ordubeltv.yayin.com.tr/ordubeltv/ordubeltv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",ORT OSMANİYE TV
 https://edge1.socialsmart.tv/orttv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",PAMUKKALE TV
+http://stream.tvcdn.net/yerel/pamukkale-tv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",POSTA TV ALANYA
 http://cdn-postatv.yayin.com.tr/postatv/postatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mHt7rQf/Tryerel.png" group-title="YEREL",RADYO KARDEŞ TV FR
