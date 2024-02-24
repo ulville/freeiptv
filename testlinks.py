@@ -102,7 +102,7 @@ def is_success(playlist):
         if not response.ok:
             return False
         return True
-    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected, ConnectionError):
+    except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected, ConnectionError, ConnectionResetError):
         return False
 
 
@@ -128,7 +128,7 @@ def get_failed_links(channel_list):
                     if not response.ok:
                         failed.append(s)
                         mark = "🔴"
-        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected, ConnectionError) as e:
+        except (HTTPError, URLError, TimeoutError, InvalidURL, ReadTimeout, KeyError, RemoteDisconnected, ConnectionError, ConnectionResetError) as e:
             if "http://localhost:53422" not in s.uri:
                 failed.append(s)
                 mark = "🔴"
